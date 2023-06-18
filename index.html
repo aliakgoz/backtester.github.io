@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Binance Data Plotter</title>
+</head>
+<body>
+  <h2>Select Time Frame:</h2>
+  <label><input type="radio" name="time-frame" value="1d" checked>1 Day</label>
+  <label><input type="radio" name="time-frame" value="1w">1 Week</label>
+  <label><input type="radio" name="time-frame" value="1m">1 Month</label>
+
+  <h2>Select Kline Type:</h2>
+  <label><input type="radio" name="kline-type" value="1m" checked>1 Min</label>
+  <label><input type="radio" name="kline-type" value="15m">15 Min</label>
+  <label><input type="radio" name="kline-type" value="1h">1 Hour</label>
+  <label><input type="radio" name="kline-type" value="1d">1 Day</label>
+
+  <canvas id="chart" width="800" height="400"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
